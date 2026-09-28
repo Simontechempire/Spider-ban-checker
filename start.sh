@@ -3,8 +3,6 @@
 set -e
 
 echo "🕷️ SPIDER XMD"
-echo "🌐 Starting gateway..."
+echo "🤖 Starting Telegram bot..."
 
-PORT="${PORT:-10000}"
-
-exec bash gateway.sh
+exec bash bot.sh
